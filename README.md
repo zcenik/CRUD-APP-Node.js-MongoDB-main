@@ -65,7 +65,7 @@ Thunder Client: Uma extensão do Visual Studio Code para testar APIs.<br>
 **Demonstração dos Testes**
 <br>Os testes podem ser executados utilizando o seguinte comando:<br>
 
-npm test<br>
-Isso iniciará a execução dos testes definidos no arquivo test.js. Os resultados dos testes serão exibidos no terminal.<br>
+"npm test"<br>
+<br>Isso iniciará a execução dos testes definidos no arquivo test.js. Os resultados dos testes serão exibidos no terminal.<br>
 Certifique-se de ter o ambiente configurado corretamente antes de executar os testes.<br>
 
