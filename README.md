@@ -23,7 +23,7 @@ Leonardo Culler<br>
 <br>Isso iniciará o servidor na porta padrão 3001. Se desejar especificar uma porta diferente, você pode definir a variável de ambiente PORT.<br>
 
 **Exemplos de Requisições**
-<br>Temos testes feitos durante a API que estão localizados na pasta teste.js<br>
+<br>Temos testes feitos durante a API que estão localizados na file teste.js<br>
 <br>Aqui estão exemplos de como realizar operações CRUD na API:<br>
 
 **Create (POST)**
