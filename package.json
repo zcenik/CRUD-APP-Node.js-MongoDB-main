@@ -1,0 +1,16 @@
+{
+  "name": "crud-app-nodejs-mongodb",
+  "version": "1.0.0",
+  "description": "CRUD application with Node.js and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "mocha --timeout 10000"
+  },
+ 
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.0.0"
+  }
+}
