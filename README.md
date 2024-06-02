@@ -12,14 +12,14 @@ Leonardo Culler<br>
 **Configuração do Ambiente**
 <br>Certifique-se de ter o Node.js e o MongoDB instalados em sua máquina. Além disso, você precisará clonar este repositório e instalar as dependências do projeto. Execute os seguintes comandos no terminal:<br>
 
-<br>git clone <https://github.com/zcenik/CRUD-APP-Node.js-MongoDB-main/edit/main/README.md>
-<br>cd crud-app-nodejs-mongodb<br>
-<br>npm install<br>
+<br>"git clone <https://github.com/zcenik/CRUD-APP-Node.js-MongoDB-main/edit/main/README.md>"
+<br>"cd crud-app-nodejs-mongodb"<br>
+<br>"npm install"<br>
 
 **Executando a Aplicação**
 <br>Para iniciar o servidor da aplicação, utilize o seguinte comando:<br>
 
-<br>npm start<br>
+<br>"npm start"<br>
 <br>Isso iniciará o servidor na porta padrão 3001. Se desejar especificar uma porta diferente, você pode definir a variável de ambiente PORT.<br>
 
 **Exemplos de Requisições**
