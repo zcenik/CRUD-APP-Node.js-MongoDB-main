@@ -7,76 +7,77 @@ Cauã Barchi<br>
 Leonardo Culler<br>
 
 **CRUD Application with Node.js and MongoDB**
-Este é um projeto de CRUD (Create, Read, Update, Delete) desenvolvido com Node.js e MongoDB.
+<br>Este é um projeto de CRUD (Create, Read, Update, Delete) desenvolvido com Node.js e MongoDB.<br>
 
 **Descrição do Projeto**
-Este projeto implementa uma API para gerenciamento de blogs, onde é possível criar, ler, atualizar e deletar blogs.
+<br>Este projeto implementa uma API para gerenciamento de blogs, onde é possível criar, ler, atualizar e deletar blogs.<br>
 
 **Configuração do Ambiente**
-Certifique-se de ter os seguintes itens instalados em sua máquina:
+<br>Certifique-se de ter os seguintes itens instalados em sua máquina:<br>
 
-Node.js (versão 12 ou superior)
-MongoDB (versão 4 ou superior)
+<br>Node.js (versão 12 ou superior)<br>
+<br>MongoDB (versão 4 ou superior)<br>
 
 **Executando a Aplicação**
-Clone o repositório:
+<br>Clone o repositório:<br>
 
-git clone https://github.com/seu-usuario/seu-repositorio.git
-Navegue até o diretório do projeto:
+<br>git clone (https://github.com/zcenik/CRUD-APP-Node.js-MongoDB-main/tree/main)<br>
+<br>Navegue até o diretório do projeto:<br>
 
-cd seu-repositorio
+<br>cd (https://github.com/zcenik/CRUD-APP-Node.js-MongoDB-main/tree/main)<br>
+
 **Instale as dependências:**
 
-npm install
+<br>npm install<br>
 
 **Instruções para Executar a Aplicação**
-Para iniciar o servidor, execute o comando:
+<br>Para iniciar o servidor, execute o comando:<br>
 
-npm start
+<br>npm start<br>
 
-A aplicação estará disponível em http://localhost:3001.
+<br>A aplicação estará disponível em http://localhost:3001.<br>
 
 **Exemplos de Requisições**
-Abaixo estão exemplos de requisições para cada operação:
+<br>Abaixo estão exemplos de requisições para cada operação:<br>
 
 **Criar um Blog (Create)**
-POST /api/blogs
-Content-Type: application/json
+<br>POST /api/blogs<br>
+<br>Content-Type: application/json<br>
 
-{
-  "title": "Título do Blog",
-  "body": "Conteúdo do Blog",
-  "image": "URL da Imagem"
-}
+<br>{<br>
+  <br>"title": "Título do Blog",<br>
+  <br>"body": "Conteúdo do Blog",<br>
+ <br>"image": "URL da Imagem"<br>
+<br>}<br>
 **Ler um Blog pelo ID (Read)**
 
-GET /api/blogs/:id
+<br>GET /api/blogs/:id<br>
 
 **Atualizar um Blog pelo ID (Update)**
 
-PUT /api/blogs/:id
-Content-Type: application/json
+<br>PUT /api/blogs/:id<br>
+<br>Content-Type: application/json<br>
 
-{
-  "title": "Novo Título do Blog",
-  "body": "Novo Conteúdo do Blog",
-  "image": "Nova URL da Imagem"
+<br>{<br>
+  <br>"title": "Novo Título do Blog",<br>
+  <br>"body": "Novo Conteúdo do Blog",<br>
+  <br>"image": "Nova URL da Imagem"<br>
 }
 
 **Deletar um Blog pelo ID (Delete)**
 
-DELETE /api/blogs/:id
+<br>DELETE /api/blogs/:id<br>
 
 **Ferramentas Utilizadas para Testes**
-Thunder Client - Para realizar testes de API.
-Mocha e Chai - Para testes automatizados.
+<br>Thunder Client - Para realizar testes de API.<br>
+<br>Mocha e Chai - Para testes automatizados.<br>
 
 **Demonstração dos Testes**
-Para demonstrar a execução dos testes utilizando Thunder Client, siga os passos abaixo:
+<br>Para demonstrar a execução dos testes utilizando Thunder Client, siga os passos abaixo:<br>
 
-Abra o Visual Studio Code.
-Instale a extensão Thunder Client.
-Abra o arquivo test_requests.http disponível na raiz do projeto.
-Execute as requisições de teste utilizando o Thunder Client.
-Verifique os resultados das requisições e as respostas recebidas.
+Abra o Visual Studio Code.<br>
+Instale a extensão Thunder Client.<br>
+Abra o arquivo test_requests.http disponível na raiz do projeto.<br>
+Execute as requisições de teste utilizando o Thunder Client.<br>
+Verifique os resultados das requisições e as respostas recebidas.<br>
 
